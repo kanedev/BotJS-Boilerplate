@@ -1,10 +1,7 @@
- //var $ = require('jquery');
- //import 'popper';
+// Import du paquet "puppeteer"
+const mypage =  require ('./modules/screenshot');
 
- //import 'bootstrap/dist/js/bootstrap.min.js'
- console.log = function(message) {
-    document.getElementById('result').innerHTML = message;
-};
-console.log('your result');
 
+// Appel de la fonction screenshot
+mypage.screenshot();
 
