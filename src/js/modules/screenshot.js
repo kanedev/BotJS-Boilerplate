@@ -5,8 +5,14 @@ module.exports = {
  screenshot : async () => {
 
     // Création d’une instance de Chrome
-    const browser = await puppeteer.launch()
+   // const browser = await puppeteer.launch()
   
+   // Création d’une instance de Chrome sanns mode headless
+    const browser = await puppeteer.launch({ headless: false })
+
+
+
+
     // Création d’un nouvel onglet
     const page = await browser.newPage()
   
