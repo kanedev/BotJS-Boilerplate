@@ -1,6 +1,6 @@
 // Import du paquet "puppeteer"
 //const mypage =  require ('./modules/screenshot');
-const books =  require ('./modules/scrapeBooks');
+const books =  require ('./modules/scrapeAllBooks');
 
 // Appel de la fonction screenshot
 //mypage.screenshot();
